@@ -63,5 +63,44 @@ canvas {
 .redirects:hover {
     background-color:greenyellow;
 }
+.redirect {
+    color: #ff0088;
+}
 
+ #passwordSection {
+            margin-top: 10px;
+            text-align: center;
+        }
 
+        #passwordField {
+            padding: 5px;
+            font-size: 12px;
+        }
+
+        #submitBtn {
+            padding: 5px 9px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        #hiddenContent {
+            display: none;
+            margin-top: 15px;
+            color: #00ff00;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .hiddenImage {
+            width: 150px;       
+            height: auto;      
+            display: block;      
+            margin: 10px auto;  
+        }
+        .instagramHandle {
+            color: #ff0088;      
+            font-size: 18px;   
+            font-weight: bold;
+            font-style: oblique;  
+            margin-left: 5px;
+        }
