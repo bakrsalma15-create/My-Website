@@ -7,7 +7,7 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 //chinese characters - taken from the unicode charset
-var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+var matrix = "ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي@#$%^&*()*&^%+-/~{[|`]}";
 //converting the string into an array of single characters
 matrix = matrix.split("");
 
@@ -18,7 +18,7 @@ var drops = [];
 //x below is the x coordinate
 //1 = y co-ordinate of the drop(same for every drop initially)
 for(var x = 0; x < columns; x++)
-    drops[x] = 1; 
+    drops[x] = 3; 
 
 //drawing the characters
 function draw()
@@ -28,7 +28,7 @@ function draw()
     ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
     ctx.fillRect(0, 0, c.width, c.height);
 
-    ctx.fillStyle = "#f4427d";//green text
+    ctx.fillStyle = "#8b8b8bff";//green text
     ctx.font = font_size + "px arial";
     //looping over drops
     for(var i = 0; i < drops.length; i++)
