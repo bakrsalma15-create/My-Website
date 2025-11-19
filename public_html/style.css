@@ -4,7 +4,7 @@
 }
 
 body {
-    background: black;
+    background: rgb(217, 168, 217);
     font-family: Arial, sans-serif;
 }
 
@@ -34,7 +34,7 @@ canvas {
     margin-top: 20px;      
     text-align: center;     
     font-size: 11px;       
-    font-family:monospace;
+    font-style: italic;
 }
 .Links::before,
 .Links::after {
@@ -46,23 +46,17 @@ canvas {
 }
 .redirects {
     display: block;
-    text-align: left;
-    color: #008800;
+    text-align: center;
+    color: #300bc5;
     text-decoration: none;
     position: relative;
     margin-top: 20 px;
 }
-.redirects::before {
-    content: ":-[ ";
-}
-
-.redirects::after {
-    content: " )";
-}
 
 .redirects:hover {
-    background-color:greenyellow;
+    background-color:rgb(255, 255, 255);
 }
+
 .redirect {
     color: #ff0088;
 }
